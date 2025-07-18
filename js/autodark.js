@@ -28,6 +28,3 @@ function autoSwitchThemeForBeijingTime() {
     console.error("自动切换主题脚本出错:", e);
   }
 }
-
-// 确保脚本在 DOM 加载后运行
-document.addEventListener('DOMContentLoaded', autoSwitchThemeForBeijingTime);
