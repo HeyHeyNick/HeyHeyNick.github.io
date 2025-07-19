@@ -260,3 +260,14 @@ h1, h2, h3, h4, h5, h6 {
 .recent-posts h2 {
     font-weight: normal;
 }
+
+/* --- Archive Page Title Adjustment --- */
+.archive-page .page-title {
+    margin-top: 1rem;
+}
+
+/* --- 微调社交图标尺寸 --- */
+.social-links svg {
+    width: 21px;
+    height: 21px;
+}
