@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-title a {
-    font-size: 2rem; /* Enlarged */
+    font-size: 1.7rem; /* Enlarged */
     font-weight: bold;
     color: var(--primary-text-color);
     text-decoration: none;
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Intro Section */
 .intro h1 {
-    font-size: 1.6rem; /* Reduced size */
+    font-size: 1.4rem; /* Reduced size */
     margin-top: 0;
     font-weight: normal; /* Make it less imposing */
     font-family: var(--font-heading);
@@ -124,10 +124,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Post List */
-.recent-posts h2, .archive-page h1 {
+.recent-posts h2,
+.archive-page .page-title {
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 0.5rem;
     margin-top: 3rem;
+    font-size: 1.25rem; /* 统一设置新字号 */
+    font-weight: normal; /* 统一设置普通字重 */
 }
 
 .post-list {
@@ -263,7 +266,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --- Archive Page Title Adjustment --- */
 .archive-page .page-title {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 /* --- 微调社交图标尺寸 --- */
