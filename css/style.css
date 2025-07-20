@@ -274,3 +274,12 @@ h1, h2, h3, h4, h5, h6 {
     width: 21px;
     height: 21px;
 }
+
+/* --- 统一文章和独立页面的主标题字号和字重 --- */
+.post .post-title,
+.page .page-title {
+    /* 将字号设置为和 H2 标题一致 */
+    font-size: 1.5rem;
+    /* 新增：设置为粗体 */
+    font-weight: bold;
+}
